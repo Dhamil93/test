@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to add a new element to the array.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var counter = [0];
+document.getElementById("demo").innerHTML = counter;
+
+function myFunction() {
+  counter.push(1);
+  document.getElementById("demo").innerHTML = counter;
+}
+</script>
+
+</body>
+</html>
